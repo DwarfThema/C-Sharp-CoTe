@@ -223,6 +223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 933236766}
   - component: {fileID: 933236765}
+  - component: {fileID: 933236767}
   m_Layer: 0
   m_Name: Console
   m_TagString: Untagged
@@ -237,9 +238,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933236764}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 958b53491c3af564a9fdd39420a92dd8, type: 3}
+  m_Script: {fileID: 11500000, guid: 967b019ab4de22a4e93b1c2f6905816f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &933236766
@@ -256,6 +257,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &933236767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933236764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71541b5b01987cc42ad1884e879e88c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
