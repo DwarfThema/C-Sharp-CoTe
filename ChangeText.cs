@@ -15,47 +15,43 @@ using UnityEngine;
 
 public class ChangeText : MonoBehaviour
 {
-    string inputStr = "1two3four5";
+    string inputStr = "1onetwo3four5";
     
     // Start is called before the first frame update
     void Start()
     {
-        string indexOne = "one";
-        int indexOneValue = inputStr.IndexOf(indexOne);
+        string index = "one";
+        int indexValue = inputStr.IndexOf(index);
 
-        if (indexOneValue != -1)
+        if (indexValue != -1)
         {
             inputStr = inputStr.Replace("one", "1");
         }
 
-        string indexTwo = "two";
-        int indexTwoValue = inputStr.IndexOf(indexTwo);
+        index = "two";
 
-        if (indexTwoValue != -1)
+        if (indexValue != -1)
         {
             inputStr = inputStr.Replace("two", "2");
         }
 
-        string indexThree = "three";
-        int indexThreeValue = inputStr.IndexOf(indexThree);
+        index = "three";
 
-        if (indexThreeValue != -1)
+        if (indexValue != -1)
         {
             inputStr = inputStr.Replace("three", "3");
         }
 
-        string indexFour = "four";
-        int indexFourValue = inputStr.IndexOf(indexFour);
+        index = "four";
 
-        if (indexFourValue != -1)
+        if (indexValue != -1)
         {
             inputStr = inputStr.Replace("four", "4");
         }
 
-        string indexFive = "five";
-        int indexFiveValue = inputStr.IndexOf(indexFive);
+        index = "five";
 
-        if (indexFiveValue != -1)
+        if (indexValue != -1)
         {
             inputStr = inputStr.Replace("five", "5");
         }
